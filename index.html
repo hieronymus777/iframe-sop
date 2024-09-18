@@ -12,7 +12,7 @@ Unknown macro: {             font-size}
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-<h1>iframe on <span id="originOutput"></span></h1>
+<h1><span id="originOutput">iframe on</span></h1>
 
 <p>
     Tap/click this iframe, which will call window.open() with javascript: URL which executes in parent page context.
@@ -28,7 +28,7 @@ Unknown macro: {             font-size}
 </p>
 
 <script>
-    document.getElementById('originOutput').textContent = "testing";
+    document.getElementById('originOutput').textContent = "iframe on testing";
 </script>
 
 </body>
